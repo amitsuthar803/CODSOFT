@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:wght@500&display=swap');
+
+body {
+  background: #7b4397;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 24rem;
+  height: 20rem;
+  background-color: #202020;
+  align-items: flex-end;
+  margin: 0 auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+.btn {
+  background-color: #f8f8f8;
+  height: 5rem;
+  width: 6rem;
+  cursor: pointer;
+  border: #f8f8f8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.btn:active {
+  border: 2px solid #d90429;
+  background-color: #d90429;
+}
+
+.digit3 {
+  background-color: #f8f8f8;
+  height: 3.8rem;
+  width: 6rem;
+  cursor: pointer;
+  border: #f8f8f8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.digit3:active {
+  border: 2px solid #d90429;
+  background-color: #d90429;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.plus {
+  background-color: #d90429;
+  height: 17rem;
+  width: 6rem;
+  border: #d90429;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.plus:active {
+  border: 2px solid #d90429;
+  background-color: #d90429;
+}
+
+input {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  outline: none;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 22rem;
+  margin: 0 auto;
+  background-color: #161616;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  color: #edf2f4;
+  font-size: 2rem;
+  text-align: right;
+  border: none;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}

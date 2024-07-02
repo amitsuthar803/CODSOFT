@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator By ©Amit</h1>
+<form class="form"  name="form1">
+
+    <input class="display"  id = "calc" type ="text" name = "answer"> 
+
+    <div class="mainContainer">
+
+      <div class="container-2">
+        <input   type="button" onclick = "form1.answer.value += '+'" value="+" id="plus" class="btn">
+        <input   type="button" onclick = "form1.answer.value += '7'" value="7" id="seven"  class="btn">
+        <input   type="button" onclick = "form1.answer.value += '4'" value="4" id="four" class="btn">
+        <input   type="button" onclick = "form1.answer.value += '1'" value="1" id="one" class="btn">
+        <input   type="button" onclick = "form1.answer.value += '0'" value="0" id="zero" class="btn">
+      </div>
+
+      <div class="container-2">
+        <input  type="button" onclick = "form1.answer.value += '-'" value="-" id="minus" class="btn">
+        <input  type="button" onclick = "form1.answer.value += '8'" value="8" id="eight" class="btn">
+        <input  type="button" onclick = "form1.answer.value += '5'" value="5" id="five" class="btn">
+        <input  type="button" onclick = "form1.answer.value += '2'" value="2" id="two" class="btn">
+        <input  type="button" onclick = "form1.answer.value += '.'" value="." id="dot" class="btn">
+      </div>
+      <div class="container-2">
+        <input type="button"  onclick = "form1.answer.value += '*' " value="×" id="multiply" class="btn">
+        <input type="button" onclick = "form1.answer.value += '9'" value="9" id="nine" class="btn">
+        <input type="button" onclick = "form1.answer.value += '6'" value="6" id="six" class="btn">
+        <input type="button" onclick = "form1.answer.value += '3'" value="3" id="three" class="btn">
+        <input type="button" onclick = "form1.answer.value += 'C'" value="C" id="clear" class="btn">
+      </div>
+      <div class="container-2">
+        <input type="button" onclick = "form1.answer.value += '/'" value="÷" id="divide" class="digit3">
+        <input type="button"  value="=" id="Equal" class="plus">
+      </div>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
